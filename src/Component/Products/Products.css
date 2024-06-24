@@ -1,0 +1,17 @@
+.products-list {
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 1rem;
+  
+  margin: 0;
+  padding: 1rem;
+  
+  list-style: none;
+}
+
+.products-list > li {
+  width: 18%;
+}
